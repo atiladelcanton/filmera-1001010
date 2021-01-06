@@ -1,0 +1,52 @@
+.card{
+    border: 3px solid #21a359;
+    height: 406px;
+}
+.card .card-body{
+    background: #2d2727;
+    color: #fff;
+}
+.form-dark{
+    -webkit-box-shadow: inset 5px -8px 16px -4px rgba(50, 50, 51, 0.5);
+    -moz-box-shadow:    inset 5px -8px 16px -4px rgba(50, 50, 51, 0.5);
+    box-shadow:         inset 5px -8px 16px -4px rgba(50, 50, 51, 0.5);
+    background:#171515;
+    border: 1px solid #21a359;
+}
+.cardFilme{
+    padding: 10px;
+}
+.card > h1{
+    font-size: 15px;
+}
+.card > img{
+    height: 100%;
+    background-size: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.76);
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+}
